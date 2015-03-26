@@ -3,7 +3,7 @@
 	<head>
 		
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
-
+		<title>ESMI - Elite Sports Medicine Institute</title>
 		<script src="js/jquery-1.11.2.js"></script>
 		<script>
 		    $(document).on("mobileinit", function(evt) {
@@ -78,7 +78,6 @@
 		    $(function() { 
 		    	var s = document.createElement("script");s.async = true;s.onload = s.onreadystatechange = function(){getYelpWidget("boo-boo-records-inc-san-luis-obispo","300","RED","y","y","2");};s.src='http://chrisawren.com/widgets/yelp/yelpv2.js' ;var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);})
 		    ();
-
     	</script>
     	<div id="fb-root"></div>
 		    <script>
@@ -89,20 +88,19 @@
       			js.src = "//connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v2.0";
       			fjs.parentNode.insertBefore(js, fjs);
     		}(document, 'script', 'facebook-jssdk'));</script>
-    	
+
 	</head>
 	<body>
 		
 		<?php 
 			include 'settings.php';
-			
-			
 		?>
+
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1><img src="img/logo.png" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1>Mobile Site | <a href="http://elitesmi.com/" rel="external">Desktop Site</a></h1>
+			<h1>Powered by <a href="http://mobilegrows.com/">MobileGrows</a> | <a href="http://elitesmi.com/" rel="external">Desktop Site</a></h1>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
